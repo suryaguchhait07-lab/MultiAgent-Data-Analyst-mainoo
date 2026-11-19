@@ -1,0 +1,357 @@
+{
+    "file_uploaded": {
+        "rows": 100,
+        "cols": [
+            "Index",
+            "Customer Id",
+            "First Name",
+            "Last Name",
+            "Company",
+            "City",
+            "Country",
+            "Phone 1",
+            "Phone 2",
+            "Email",
+            "Subscription Date",
+            "Website"
+        ]
+    },
+    "profiler_output": {
+        "status": "success",
+        "rows": 100,
+        "cols": 12,
+        "dtypes": {
+            "Index": "int64",
+            "Customer Id": "str",
+            "First Name": "str",
+            "Last Name": "str",
+            "Company": "str",
+            "City": "str",
+            "Country": "str",
+            "Phone 1": "str",
+            "Phone 2": "str",
+            "Email": "str",
+            "Subscription Date": "str",
+            "Website": "str"
+        },
+        "missing": {
+            "Index": 0,
+            "Customer Id": 0,
+            "First Name": 0,
+            "Last Name": 0,
+            "Company": 0,
+            "City": 0,
+            "Country": 0,
+            "Phone 1": 0,
+            "Phone 2": 0,
+            "Email": 0,
+            "Subscription Date": 0,
+            "Website": 0
+        },
+        "numeric_columns": [
+            "Index"
+        ],
+        "categorical_columns": [
+            "Customer Id",
+            "First Name",
+            "Last Name",
+            "Company",
+            "City",
+            "Country",
+            "Phone 1",
+            "Phone 2",
+            "Email",
+            "Subscription Date",
+            "Website"
+        ],
+        "sample_rows": [
+            {
+                "Index": 1,
+                "Customer Id": "KHID4HiDzp",
+                "First Name": "Hector",
+                "Last Name": "Huang",
+                "Company": "Baxter Group",
+                "City": "Port Ianshire",
+                "Country": "Finland",
+                "Phone 1": "6233837777",
+                "Phone 2": "(302)564-9011x928",
+                "Email": "janecooper@chambers-underwood.com",
+                "Subscription Date": "2022-06-12",
+                "Website": "http://gamble.org/"
+            },
+            {
+                "Index": 2,
+                "Customer Id": "W50PcDdk1a",
+                "First Name": "Marcus",
+                "Last Name": "Hahn",
+                "Company": "Rich-Santos",
+                "City": "West Erica",
+                "Country": "New Zealand",
+                "Phone 1": "250-574-1941x405",
+                "Phone 2": "+1-810-810-1744x956",
+                "Email": "mercedes43@hooper-newman.com",
+                "Subscription Date": "2020-12-06",
+                "Website": "http://key.com/"
+            },
+            {
+                "Index": 3,
+                "Customer Id": "acQ3W8B4t8",
+                "First Name": "Cassie",
+                "Last Name": "Walsh",
+                "Company": "Shea-Ewing",
+                "City": "New Joanne",
+                "Country": "Cayman Islands",
+                "Phone 1": "001-568-835-1828",
+                "Phone 2": "603-949-6270x4521",
+                "Email": "eddiedelacruz@malone.com",
+                "Subscription Date": "2022-09-25",
+                "Website": "https://woods.com/"
+            },
+            {
+                "Index": 4,
+                "Customer Id": "4QMeOJZ0vf",
+                "First Name": "Erica",
+                "Last Name": "Powers",
+                "Company": "Petersen, Sloan and Boyer",
+                "City": "Patriciaberg",
+                "Country": "Svalbard & Jan Mayen Islands",
+                "Phone 1": "483.525.2396",
+                "Phone 2": "001-639-783-4487x497",
+                "Email": "waynepeters@melendez.com",
+                "Subscription Date": "2020-06-05",
+                "Website": "https://www.carlson-cantrell.com/"
+            },
+            {
+                "Index": 5,
+                "Customer Id": "GXdMtnn172",
+                "First Name": "Carl",
+                "Last Name": "Kelley",
+                "Company": "Hale, Williamson and Bates",
+                "City": "New Danberg",
+                "Country": "Trinidad and Tobago",
+                "Phone 1": "(313)729-8953",
+                "Phone 2": "928.736.3321",
+                "Email": "derek18@douglas-travis.org",
+                "Subscription Date": "2026-04-23",
+                "Website": "http://tapia.com/"
+            }
+        ]
+    },
+    "eda_output": {
+        "status": "success",
+        "rows": 100,
+        "cols": 12,
+        "describe": {
+            "Index": {
+                "count": 100.0,
+                "unique": "",
+                "top": "",
+                "freq": "",
+                "mean": 50.5,
+                "std": 29.011491975882016,
+                "min": 1.0,
+                "25%": 25.75,
+                "50%": 50.5,
+                "75%": 75.25,
+                "max": 100.0
+            },
+            "Customer Id": {
+                "count": 100,
+                "unique": 100,
+                "top": "KHID4HiDzp",
+                "freq": 1,
+                "mean": "",
+                "std": "",
+                "min": "",
+                "25%": "",
+                "50%": "",
+                "75%": "",
+                "max": ""
+            },
+            "First Name": {
+                "count": 100,
+                "unique": 92,
+                "top": "Hector",
+                "freq": 2,
+                "mean": "",
+                "std": "",
+                "min": "",
+                "25%": "",
+                "50%": "",
+                "75%": "",
+                "max": ""
+            },
+            "Last Name": {
+                "count": 100,
+                "unique": 96,
+                "top": "Small",
+                "freq": 2,
+                "mean": "",
+                "std": "",
+                "min": "",
+                "25%": "",
+                "50%": "",
+                "75%": "",
+                "max": ""
+            },
+            "Company": {
+                "count": 100,
+                "unique": 100,
+                "top": "Baxter Group",
+                "freq": 1,
+                "mean": "",
+                "std": "",
+                "min": "",
+                "25%": "",
+                "50%": "",
+                "75%": "",
+                "max": ""
+            },
+            "City": {
+                "count": 100,
+                "unique": 100,
+                "top": "Port Ianshire",
+                "freq": 1,
+                "mean": "",
+                "std": "",
+                "min": "",
+                "25%": "",
+                "50%": "",
+                "75%": "",
+                "max": ""
+            },
+            "Country": {
+                "count": 100,
+                "unique": 82,
+                "top": "Australia",
+                "freq": 4,
+                "mean": "",
+                "std": "",
+                "min": "",
+                "25%": "",
+                "50%": "",
+                "75%": "",
+                "max": ""
+            },
+            "Phone 1": {
+                "count": 100,
+                "unique": 100,
+                "top": "6233837777",
+                "freq": 1,
+                "mean": "",
+                "std": "",
+                "min": "",
+                "25%": "",
+                "50%": "",
+                "75%": "",
+                "max": ""
+            },
+            "Phone 2": {
+                "count": 100,
+                "unique": 100,
+                "top": "(302)564-9011x928",
+                "freq": 1,
+                "mean": "",
+                "std": "",
+                "min": "",
+                "25%": "",
+                "50%": "",
+                "75%": "",
+                "max": ""
+            },
+            "Email": {
+                "count": 100,
+                "unique": 100,
+                "top": "janecooper@chambers-underwood.com",
+                "freq": 1,
+                "mean": "",
+                "std": "",
+                "min": "",
+                "25%": "",
+                "50%": "",
+                "75%": "",
+                "max": ""
+            },
+            "Subscription Date": {
+                "count": 100,
+                "unique": 99,
+                "top": "2023-03-27",
+                "freq": 2,
+                "mean": "",
+                "std": "",
+                "min": "",
+                "25%": "",
+                "50%": "",
+                "75%": "",
+                "max": ""
+            },
+            "Website": {
+                "count": 100,
+                "unique": 100,
+                "top": "http://gamble.org/",
+                "freq": 1,
+                "mean": "",
+                "std": "",
+                "min": "",
+                "25%": "",
+                "50%": "",
+                "75%": "",
+                "max": ""
+            }
+        },
+        "numeric_columns": [
+            "Index"
+        ],
+        "categorical_columns": [
+            "Customer Id",
+            "First Name",
+            "Last Name",
+            "Company",
+            "City",
+            "Country",
+            "Phone 1",
+            "Phone 2",
+            "Email",
+            "Subscription Date",
+            "Website"
+        ],
+        "histograms": [
+            "eda_outputs\\hist_Index.png"
+        ],
+        "boxplots": [
+            "eda_outputs\\box_Index.png"
+        ],
+        "missing_path": "eda_outputs\\missing_heatmap.png",
+        "correlations": {
+            "status": "not_enough_numeric_cols"
+        },
+        "corr_image_paths": {},
+        "outlier_counts": {
+            "Index": 0
+        },
+        "skew_kurtosis": {
+            "Index": {
+                "skewness": 0.0,
+                "kurtosis": -1.2
+            }
+        },
+        "vif": {
+            "status": "skipped",
+            "reason": "too_few_cols"
+        }
+    },
+    "verifier_output": {
+        "status": "success",
+        "quality": "Weak",
+        "metrics": {
+            "mse": 848.9750857569741,
+            "r2": -0.0594310672701992
+        },
+        "notes": [
+            "Basic verification completed"
+        ]
+    },
+    "notebook_output": {
+        "path": "reports/auto_report.ipynb"
+    }
+}

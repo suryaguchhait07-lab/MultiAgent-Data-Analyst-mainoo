@@ -1,0 +1,203 @@
+{
+  "status": "success",
+  "rows": 100,
+  "cols": 12,
+  "describe": {
+    "Index": {
+      "count": 100.0,
+      "unique": "",
+      "top": "",
+      "freq": "",
+      "mean": 50.5,
+      "std": 29.011491975882016,
+      "min": 1.0,
+      "25%": 25.75,
+      "50%": 50.5,
+      "75%": 75.25,
+      "max": 100.0
+    },
+    "Customer Id": {
+      "count": 100,
+      "unique": 100,
+      "top": "KHID4HiDzp",
+      "freq": 1,
+      "mean": "",
+      "std": "",
+      "min": "",
+      "25%": "",
+      "50%": "",
+      "75%": "",
+      "max": ""
+    },
+    "First Name": {
+      "count": 100,
+      "unique": 92,
+      "top": "Hector",
+      "freq": 2,
+      "mean": "",
+      "std": "",
+      "min": "",
+      "25%": "",
+      "50%": "",
+      "75%": "",
+      "max": ""
+    },
+    "Last Name": {
+      "count": 100,
+      "unique": 96,
+      "top": "Small",
+      "freq": 2,
+      "mean": "",
+      "std": "",
+      "min": "",
+      "25%": "",
+      "50%": "",
+      "75%": "",
+      "max": ""
+    },
+    "Company": {
+      "count": 100,
+      "unique": 100,
+      "top": "Baxter Group",
+      "freq": 1,
+      "mean": "",
+      "std": "",
+      "min": "",
+      "25%": "",
+      "50%": "",
+      "75%": "",
+      "max": ""
+    },
+    "City": {
+      "count": 100,
+      "unique": 100,
+      "top": "Port Ianshire",
+      "freq": 1,
+      "mean": "",
+      "std": "",
+      "min": "",
+      "25%": "",
+      "50%": "",
+      "75%": "",
+      "max": ""
+    },
+    "Country": {
+      "count": 100,
+      "unique": 82,
+      "top": "Australia",
+      "freq": 4,
+      "mean": "",
+      "std": "",
+      "min": "",
+      "25%": "",
+      "50%": "",
+      "75%": "",
+      "max": ""
+    },
+    "Phone 1": {
+      "count": 100,
+      "unique": 100,
+      "top": "6233837777",
+      "freq": 1,
+      "mean": "",
+      "std": "",
+      "min": "",
+      "25%": "",
+      "50%": "",
+      "75%": "",
+      "max": ""
+    },
+    "Phone 2": {
+      "count": 100,
+      "unique": 100,
+      "top": "(302)564-9011x928",
+      "freq": 1,
+      "mean": "",
+      "std": "",
+      "min": "",
+      "25%": "",
+      "50%": "",
+      "75%": "",
+      "max": ""
+    },
+    "Email": {
+      "count": 100,
+      "unique": 100,
+      "top": "janecooper@chambers-underwood.com",
+      "freq": 1,
+      "mean": "",
+      "std": "",
+      "min": "",
+      "25%": "",
+      "50%": "",
+      "75%": "",
+      "max": ""
+    },
+    "Subscription Date": {
+      "count": 100,
+      "unique": 99,
+      "top": "2023-03-27",
+      "freq": 2,
+      "mean": "",
+      "std": "",
+      "min": "",
+      "25%": "",
+      "50%": "",
+      "75%": "",
+      "max": ""
+    },
+    "Website": {
+      "count": 100,
+      "unique": 100,
+      "top": "http://gamble.org/",
+      "freq": 1,
+      "mean": "",
+      "std": "",
+      "min": "",
+      "25%": "",
+      "50%": "",
+      "75%": "",
+      "max": ""
+    }
+  },
+  "numeric_columns": [
+    "Index"
+  ],
+  "categorical_columns": [
+    "Customer Id",
+    "First Name",
+    "Last Name",
+    "Company",
+    "City",
+    "Country",
+    "Phone 1",
+    "Phone 2",
+    "Email",
+    "Subscription Date",
+    "Website"
+  ],
+  "histograms": [
+    "eda_outputs\\hist_Index.png"
+  ],
+  "boxplots": [
+    "eda_outputs\\box_Index.png"
+  ],
+  "missing_path": "eda_outputs\\missing_heatmap.png",
+  "correlations": {
+    "status": "not_enough_numeric_cols"
+  },
+  "corr_image_paths": {},
+  "outlier_counts": {
+    "Index": 0
+  },
+  "skew_kurtosis": {
+    "Index": {
+      "skewness": 0.0,
+      "kurtosis": -1.2
+    }
+  },
+  "vif": {
+    "status": "skipped",
+    "reason": "too_few_cols"
+  }
+}
